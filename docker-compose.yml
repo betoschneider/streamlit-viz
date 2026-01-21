@@ -1,0 +1,10 @@
+services:
+  streamlit-app:
+    build: .
+    container_name: streamlit-viz-app
+    ports:
+      - "8513:8501"
+    volumes:
+      - .:/app
+    # Reinicia automaticamente se o container cair
+    restart: unless-stopped
