@@ -2,10 +2,15 @@
 
 Este projeto é uma aplicação interativa desenvolvida com [Streamlit](https://streamlit.io/) para visualização e edição de dados gerados aleatoriamente.
 
+## 🔗 Link de Acesso
+
+O projeto pode ser acessado online em: [https://st.betoschneider.com/](https://st.betoschneider.com/)
+
+
 ## ✨ Funcionalidades
 
 - **Geração Dinâmica de Dados**: Altere a quantidade de pontos e a semente (seed) aleatória através da barra lateral.
-- **Gráficos Interativos**: Visualização em tempo real dos dados gerados via `st.line_chart`.
+- **Gráficos Interativos**: Visualização em tempo real dos dados gerados via `st.line_chart` e `st.altair_chart`.
 - **Edição de Dados**: Uma tabela interativa (`st.data_editor`) permite modificar os valores diretamente, refletindo instantaneamente no gráfico.
 - **Performance**: Utiliza cache (`@st.cache_data`) para otimizar a regeneração de dados.
 
